@@ -1,1 +1,1 @@
-# SP-500_stock_data
+# S&P-500_stock_data
