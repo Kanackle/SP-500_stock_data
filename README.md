@@ -33,7 +33,7 @@ We identified the unique symbols for each stock to make it easier to identify la
 
 For this project we decided to use PostgreSQL for our relational database system. We created a folder that consists of tables and their predefined relationships. 
 Each CSV file's data will be loaded into a table. We will create tables and define relationships as we progress through this project. The database was created and stored in one local server.
-For our stock datasets, we told SQL that the values for columns such as Open, Close, High, Low, and Volume are TINYINT which is the type of integer that contains 0-255 decimal points in order to correctly import the data and create the tables.
+For our stock datasets, we told SQL that the values for columns such as Open, Close, High, Low, and Volume are NUMERIC which is the type of integer that contains 0-255 decimal points in order to correctly import the data and create the tables.
 
 ## Machine Learning Model
 
