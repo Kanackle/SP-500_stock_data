@@ -6,7 +6,7 @@ Kanak Somani
 Kevin Xu
 Samson Cheffa
 
-## Purpose:
+## Purpose
 The purpose of this analysis was to analyze treads in 20 popular S&P 500 Stocks.
 
 ## Processes
@@ -17,7 +17,8 @@ It was a CSV file that contained S&P 500 stock data from the last 10 years. The 
 The ending result was 20 stocks in a CSV file of about 55,000 rows. The information that was given to us included stock symbols, trading date, open, close, volume, etc.
 Additionally, we had a CSV file that contained company data for each of the 20 stocks included above.
 
-### Cleaning: 
+### Cleaning
+
 Before visualizing, storing, or using our data for machine learning, we needed to make sure to do some cleaning and check the data types. 
 We checked the datatypes to make sure all the columns were in the correct types we needed to move forward. We decided for this data it was important for us to keep duplicates, so that was not part of the cleaning process.
 We identified the unique symbols for each stock to make it easier to identify later on. We checked for null values and dropped those.
