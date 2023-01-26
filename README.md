@@ -9,6 +9,8 @@ Samson Cheffa
 ## Purpose:
 The purpose of this analysis was to analyze treads in 20 popular S&P 500 Stocks.
 
+## Processes
+
 ### Data:
 The data came from Kaggle.com (link to Kaggle)
 It was a CSV file that contained S&P 500 stock data from the last 10 years. The original file contained more than a million rows of data. Due to this, we introduced bias in picking 20 stocks to manage the data. 
