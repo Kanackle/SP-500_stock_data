@@ -1,4 +1,4 @@
--- Stock Data Schema
+-- Creating Schema for Stock Data
 
 CREATE TABLE "Stock_data" (
     "date" DATE   NOT NULL,
@@ -7,7 +7,7 @@ CREATE TABLE "Stock_data" (
     "high" NUMERIC   NOT NULL,
     "low" NUMERIC   NOT NULL,
     "open" NUMERIC   NOT NULL,
-    "volume" INT   NOT NULL,
+    "volume" NUMERIC   NOT NULL,
     CONSTRAINT "pk_Stock_data" PRIMARY KEY (
         "symbol"
      )
@@ -20,7 +20,10 @@ CREATE TABLE "Company_data" (
     "sector" VARCHAR(20)   NOT NULL,
     CONSTRAINT "pk_Company_data" PRIMARY KEY (
         "symbol"
-     )
+     ),
+    CONSTRAINT "uc_Company_data_exchange" UNIQUE (
+        "exchange"
+    )
 );
 
 CREATE TABLE "Avg_stock_price" (
@@ -47,4 +50,12 @@ REFERENCES "Company_data" ("sector");
 
 ALTER TABLE "Sector_amount" ADD CONSTRAINT "fk_Sector_amount_symbol" FOREIGN KEY("symbol")
 REFERENCES "Avg_stock_price" ("symbol");
+
+-- Checking that the creation of the tables is correct
+
+SELECT * FROM "Company_data";
+SELECT * FROM "Stock_data";
+SELECT * FROM "Avg_stock_price";
+SELECT * FROM "Sector_amount";
+
 
