@@ -1,4 +1,4 @@
-# SP-500 Stock Data Machine Learning Model
+# SP-500 Stock Data ~ Machine Learning Model
 
 ## Purpose
 
