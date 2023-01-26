@@ -2,7 +2,7 @@
 
 ## Purpose
 
-### Processes 
+## Processes 
 
 ### ETL
 
