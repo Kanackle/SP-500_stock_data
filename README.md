@@ -31,7 +31,7 @@ We identified the unique symbols for each stock to make it easier to identify la
 
 ### Database
 
-For this project we decided to use PostgreSQL for our relational database system. We created a folder that consists of tables and their predefined relationships. Each CSV file's data will be loaded into a table. We will create tables and define relationships as we progress through this project. With one local server, the database was created and stored.
+For this project we decided to use PostgreSQL for our relational database system. We created a folder that consists of tables and their predefined relationships. Each CSV file's data will be loaded into a table. We will create tables and define relationships as we progress through this project. The database was created and stored in one local server.
 
 ## Machine Learning Model
 
