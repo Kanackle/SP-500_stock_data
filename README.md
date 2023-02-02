@@ -1,13 +1,12 @@
-# SP-500 Stock Data ~ Machine Learning Model
+# 20 Stock SP-500 Analysis ~ Machine Learning Model
 
 Samantha Miller 
 Nancy Pineda
 Kanak Somani
 Kevin Xu
-Samson Cheffa
 
 ## Purpose
-The purpose of this analysis was to analyze treads in 20 popular S&P 500 Stocks.
+The purpose of this analysis was to analyze treads in 20 popular S&P 500 Stocks and answer the question, can we predict stock prices or find patterns to help us make better trading decisions?
 
 ## Processes
 
@@ -21,7 +20,7 @@ Additionally, we had a CSV file that contained company data for each of the 20 s
 
 Before visualizing, storing, or using our data for machine learning, we needed to make sure to do some cleaning and check the data types. 
 We checked the datatypes to make sure all the columns were in the correct types we needed to move forward. We decided for this data it was important for us to keep duplicates, so that was not part of the cleaning process.
-We identified the unique symbols for each stock to make it easier to identify later on. We checked for null values and dropped those.
+We identified the unique symbols for each stock to make it easier to identify later on. We checked for null values and dropped those. Once the data was cleaned we exported CSV files to be stored and further queried with SQL and Tableau. 
 
 ### Visualizations
 
@@ -35,7 +34,7 @@ For this project we decided to use PostgreSQL for our relational database system
 Each CSV file's data will be loaded into a table. We will create tables and define relationships as we progress through this project. The database was created and stored in one local server.
 For our stock datasets, we told SQL that the values for columns such as Open, Close, High, Low, and Volume are NUMERIC which is the type of integer that contains 0-255 decimal points in order to correctly import the data and create the tables.
 
-Furthermore, through creation of new tables we are able to explore the sectors to which the companies with highest or lowest closing prices belong to. From the 20 stocks randomly chosen, we created a left-joined table where the avg_stock_price table takes all the columns (‘symbol’ & ‘close’) and it joins with the company_data ‘sector’  by the ‘symbol’ column. Our findings are that the highest average closing price was recorded for BLK (Adobe) at approximately 437.35 belonging to the Financial Services sector. The lowest average closing price was recorded for  F (Ford Motor Company) at  approximately 12.44 belonging to the Consumer Cyclical sector. From this table we can note that the Financial Services sector have pretty high closing prices; when compared to other sectors such as Technology which goes as high as 207.18 but also as low as 28.26 closing price. This information will be used in the next analysis for the machine learning model, as we see that volatility of some of the stocks and how this plays a role within their predictability.
+Furthermore, through creation of new tables we are able to explore the sectors to which the companies with highest or lowest closing prices belong to. From the 20 stocks randomly chosen, we created a left-joined table where the avg_stock_price table takes all the columns (‘symbol’ & ‘close’) and it joins with the company_data ‘sector’  by the ‘symbol’ column. Our findings are that the highest average closing price was recorded for BLK (BlackRock Inc)at approximately 437.35 belonging to the Financial Services sector. The lowest average closing price was recorded for  F (Ford Motor Company) at  approximately 12.44 belonging to the Consumer Cyclical sector. From this table we can note that the Financial Services sector have pretty high closing prices; when compared to other sectors such as Technology which goes as high as 207.18 but also as low as 28.26 closing price. This information will be used in the next analysis for the machine learning model, as we see that volatility of some of the stocks and how this plays a role within their predictability.
 
 ## Machine Learning Model
 
