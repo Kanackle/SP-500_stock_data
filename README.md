@@ -1,13 +1,12 @@
-# SP-500 Stock Data ~ Machine Learning Model
+# 20 Stock SP-500 Analysis ~ Machine Learning Model
 
 Samantha Miller 
 Nancy Pineda
 Kanak Somani
 Kevin Xu
-Samson Cheffa
 
 ## Purpose
-The purpose of this analysis was to analyze treads in 20 popular S&P 500 Stocks.
+The purpose of this analysis was to analyze treads in 20 popular S&P 500 Stocks and answer the question, can we predict stock prices or find patterns to help us make better trading decisions?
 
 ## Processes
 
@@ -21,7 +20,7 @@ Additionally, we had a CSV file that contained company data for each of the 20 s
 
 Before visualizing, storing, or using our data for machine learning, we needed to make sure to do some cleaning and check the data types. 
 We checked the datatypes to make sure all the columns were in the correct types we needed to move forward. We decided for this data it was important for us to keep duplicates, so that was not part of the cleaning process.
-We identified the unique symbols for each stock to make it easier to identify later on. We checked for null values and dropped those.
+We identified the unique symbols for each stock to make it easier to identify later on. We checked for null values and dropped those. Once the data was cleaned we exported CSV files to be stored and further queried with SQL and Tableau. 
 
 ### Visualizations
 
