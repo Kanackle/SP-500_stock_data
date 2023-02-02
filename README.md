@@ -43,3 +43,5 @@ Furthermore, through creation of new tables we are able to explore the sectors t
 ## Summary
 
 ## Resources
+
+[Powerpoint Presentation](https://docs.google.com/presentation/d/11K56YoS6SCqYIbejt64Zi2piEE9Fm_RQcmFz4qk4gsA/edit?usp=sharing)
