@@ -45,9 +45,10 @@ Furthermore, through creation of new tables we are able to explore the sectors t
 ## Machine Learning Model
 
 ## Results
+We found that this model may not be the best at predicting overall performance but it may give us an idea of the stability and volitilty of prices overtime. We may need to investigate models that work best for time series data and forecasting performance. Our 3 lowest performers were Apple (AAPL), Adobe(ADBE), and Amazon(AMZN)
+Our 3 highest performers were American Airlines (AAL), IBM(IBM), and Hershey(HSY).
 
-## Summary
+When looking at the 6 stocks mentioned above we can see that over time a stock with higher accuracy like American Airlines has remained fairly stable of the last 10 years. It makes price changes that are closer to $20-$30 in jumps, im comparison to a stock liek Adobe that we see significant jumps in prices over time. We can make an assumption that our model was having a harder time finding a pattern that could be tracked. 
 
-## Resources
 
 [Powerpoint Presentation](https://docs.google.com/presentation/d/11K56YoS6SCqYIbejt64Zi2piEE9Fm_RQcmFz4qk4gsA/edit?usp=sharing)
