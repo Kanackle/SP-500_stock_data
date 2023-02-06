@@ -23,6 +23,7 @@ We checked the datatypes to make sure all the columns were in the correct types 
 We identified the unique symbols for each stock to make it easier to identify later on. We checked for null values and dropped those. Once the data was cleaned we exported CSV files to be stored and further queried with SQL and Tableau. 
 
 ### Visualizations
+After the cleaning 
 
 [link to visulizations](https://public.tableau.com/app/profile/zixuan.xu)
 
