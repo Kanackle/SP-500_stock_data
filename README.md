@@ -28,6 +28,7 @@ After the cleaning
 [link to visulizations](https://public.tableau.com/app/profile/zixuan.xu)
 
 [link to dashboard](https://public.tableau.com/views/Dashboard_16747067831160/Dashboard1?:language=en-GB&publish=yes&:display_count=n&:origin=viz_share_link)
+[link to dashboard](https://public.tableau.com/views/Dashboard2_16751379538680/Dashboard2?:language=en-US&:display_count=n&:origin=viz_share_link)
 
 ### Database
 
