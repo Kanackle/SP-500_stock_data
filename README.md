@@ -23,12 +23,15 @@ We checked the datatypes to make sure all the columns were in the correct types 
 We identified the unique symbols for each stock to make it easier to identify later on. We checked for null values and dropped those. Once the data was cleaned we exported CSV files to be stored and further queried with SQL and Tableau. 
 
 ### Visualizations
-After the cleaning 
-
+After the data cleaning process, we imported the cleaned data into tableau for visualization. 
+At this stage, we wanted to see if there are any direct relationship between trading volume and closing price.
 [link to visulizations](https://public.tableau.com/app/profile/zixuan.xu)
 
 [link to dashboard](https://public.tableau.com/views/Dashboard_16747067831160/Dashboard1?:language=en-GB&publish=yes&:display_count=n&:origin=viz_share_link)
+
 [link to dashboard](https://public.tableau.com/views/Dashboard2_16751379538680/Dashboard2?:language=en-US&:display_count=n&:origin=viz_share_link)
+
+From the chart above, we did not find any DIRECT relationship between trading volume and closing price in stock.
 
 ### Database
 
