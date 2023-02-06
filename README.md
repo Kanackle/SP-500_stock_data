@@ -25,6 +25,7 @@ We identified the unique symbols for each stock to make it easier to identify la
 ### Visualizations
 After the data cleaning process, we imported the cleaned data into tableau for visualization. 
 At this stage, we wanted to see if there are any direct relationship between trading volume and closing price.
+
 [link to visulizations](https://public.tableau.com/app/profile/zixuan.xu)
 
 [link to dashboard](https://public.tableau.com/views/Dashboard_16747067831160/Dashboard1?:language=en-GB&publish=yes&:display_count=n&:origin=viz_share_link)
