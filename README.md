@@ -6,7 +6,7 @@ Kanak Somani
 Kevin Xu
 
 ## Purpose
-The purpose of this analysis was to analyze treads in 20 popular S&P 500 Stocks and answer the question, can we predict stock prices or find patterns to help us make better trading decisions?
+The purpose of this analysis is to find trends in randomly chosen S&P 500 Stocks and answer the question, can we predict stock prices or find patterns to help us make better trading decisions?
 
 ## Processes
 
